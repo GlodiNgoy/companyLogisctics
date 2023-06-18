@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="483.0" prefWidth="810.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oopproject.TextAreaController">
+   <children>
+      <TableView fx:id="clientTable" layoutX="76.0" layoutY="75.0" prefHeight="264.0" prefWidth="630.0">
+        <columns>
+            <TableColumn fx:id="idArea" prefWidth="91.0" text="ID" />
+            <TableColumn fx:id="senderArea" prefWidth="130.0" text="SENDER" />
+            <TableColumn fx:id="receiverArea" prefWidth="103.0" text="RECEIVER" />
+            <TableColumn fx:id="dimensionArea" prefWidth="102.0" text="DIMENSION" />
+            <TableColumn fx:id="vehicleArea" prefWidth="102.0" text="TYPE" />
+            <TableColumn fx:id="cityArea" prefWidth="102.0" text="CITY" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="340.0" layoutY="364.0" onMouseClicked="#close" prefHeight="47.0" prefWidth="160.0" style="-fx-background-color: black;" text="CLOSE">
+         <font>
+            <Font name="Century Gothic" size="28.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.6190476190476191">
+               <stops>
+                  <Stop color="#e4dcdb" />
+                  <Stop color="#cd9090" offset="0.04810996563573881" />
+                  <Stop color="#231f2f" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </JFXButton>
+      <Text fill="#976f6f" layoutX="201.0" layoutY="57.0" opacity="0.85" strokeType="OUTSIDE" strokeWidth="0.0" text="View all details" textAlignment="CENTER" wrappingWidth="407.13671875">
+         <font>
+            <Font name="Bauhaus 93" size="33.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

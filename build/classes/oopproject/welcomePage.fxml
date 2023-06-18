@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="413.0" prefWidth="658.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="oopproject.WelcomePageController">
+   <children>
+      <ImageView fitHeight="559.0" fitWidth="658.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/MiniProject.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="113.0" layoutY="-27.0" opacity="0.69" prefHeight="153.0" prefWidth="432.0" style="-fx-background-color: white;" text="WELCOME TO OUR COMPANY" textFill="#9e1010">
+         <font>
+            <Font name="Bauhaus 93" size="29.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="152.0" layoutY="207.0" onMouseClicked="#clientScrenn" prefHeight="56.0" prefWidth="355.0" style="-fx-background-color: Gray;" text="Click to add client">
+         <font>
+            <Font name="Century Gothic" size="28.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#d7cbcb" offset="0.0481099656357388" />
+                  <Stop color="#222f1a" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </JFXButton>
+      <JFXButton layoutX="139.0" layoutY="293.0" onMouseClicked="#adminScreen" prefHeight="56.0" prefWidth="396.0" style="-fx-background-color: Gray;" text="Click to view as an admin">
+         <font>
+            <Font name="Century Gothic" size="28.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="#e4dcdb" />
+                  <Stop color="#cd9090" offset="0.04810996563573881" />
+                  <Stop color="#231f2f" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </JFXButton>
+   </children>
+</AnchorPane>

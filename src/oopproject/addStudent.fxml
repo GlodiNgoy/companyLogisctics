@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="522.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oopproject.AddStudentController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="57.0" prefWidth="600.0">
+         <children>
+            <Text fill="#805f5f" strokeType="OUTSIDE" strokeWidth="0.0" text="Client screen" textAlignment="CENTER">
+               <font>
+                  <Font name="Bauhaus 93" size="29.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="15.0" top="5.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox prefHeight="54.0" prefWidth="525.0">
+         <VBox.margin>
+            <Insets top="5.0" />
+         </VBox.margin>
+         <children>
+            <Text fill="#c60e0e" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="PLEASE FILL THE CARGO DETAILS" wrappingWidth="430.35546875">
+               <HBox.margin>
+                  <Insets left="200.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Arial Narrow Bold" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="54.0" prefWidth="600.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Name" wrappingWidth="119.13671875">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <JFXTextField fx:id="nameFld" prefHeight="25.0" prefWidth="526.0">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXTextField>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="80.0" right="80.0" top="20.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="20.0" right="10.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="75.0" prefHeight="54.0" prefWidth="600.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Length" wrappingWidth="119.13671875">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <JFXTextField fx:id="lengthFld" prefHeight="25.0" prefWidth="526.0">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXTextField>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="80.0" right="80.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="20.0" right="10.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="129.0" prefHeight="54.0" prefWidth="600.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Width" wrappingWidth="119.13671875">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <JFXTextField fx:id="widthFld" prefHeight="25.0" prefWidth="526.0">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXTextField>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="80.0" right="80.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="20.0" right="10.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="183.0" prefHeight="54.0" prefWidth="600.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Height" wrappingWidth="119.13671875">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <JFXTextField fx:id="heightFld" prefHeight="25.0" prefWidth="526.0">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXTextField>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="80.0" right="80.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="20.0" right="10.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="237.0" prefHeight="54.0" prefWidth="600.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Weight" wrappingWidth="119.13671875">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <JFXTextField fx:id="weightFld" prefHeight="25.0" prefWidth="526.0">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXTextField>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="80.0" right="80.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="20.0" right="10.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="291.0" prefHeight="54.0" prefWidth="600.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Receiver Name" wrappingWidth="119.13671875">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <JFXTextField fx:id="receiverFld" prefHeight="25.0" prefWidth="526.0">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXTextField>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="80.0" right="80.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="20.0" right="10.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="345.0" prefHeight="54.0" prefWidth="600.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="City" wrappingWidth="119.13671875">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <JFXTextField fx:id="cityFld" prefHeight="25.0" prefWidth="526.0">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </JFXTextField>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="80.0" right="80.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="10.0" right="10.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="70.0" prefWidth="600.0">
+         <VBox.margin>
+            <Insets bottom="10.0" top="40.0" />
+         </VBox.margin>
+         <children>
+            <JFXButton onMouseClicked="#save" prefHeight="45.0" prefWidth="160.0" style="-fx-background-color: DarkTurquoise;" text="SAVE" textFill="#ededf2">
+               <HBox.margin>
+                  <Insets left="40.0" right="50.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Century Gothic" size="28.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="240.0" layoutY="23.0" onMouseClicked="#clear" prefHeight="45.0" prefWidth="160.0" style="-fx-background-color: #8B0000;" text="CLEAR">
+               <HBox.margin>
+                  <Insets left="40.0" right="50.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Century Gothic" size="28.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.6190476190476191">
+                     <stops>
+                        <Stop color="#e4dcdb" />
+                        <Stop color="#cd9090" offset="0.04810996563573881" />
+                        <Stop color="#d0cfd3" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </JFXButton>
+         </children>
+      </HBox>
+   </children>
+</VBox>

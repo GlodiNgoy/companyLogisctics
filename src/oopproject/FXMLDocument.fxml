@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="454.0" prefWidth="900.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oopproject.FXMLDocumentController">
+   <stylesheets>
+      <URL value="@../../../MiniProject/src/tableView/tableview.css" />
+   </stylesheets>
+   <children>
+      <TableView fx:id="adminTable" layoutX="20.0" layoutY="139.0" prefHeight="283.0" prefWidth="861.0" style="-fx-allignment: center;">
+         <columns>
+            <TableColumn fx:id="idCol" prefWidth="72.0" text="ID" />
+            <TableColumn fx:id="nameCol" prefWidth="88.0" text="NAME" />
+            <TableColumn fx:id="lengthCol" prefWidth="95.0" text="LENGTH" />
+            <TableColumn fx:id="widthCol" prefWidth="91.0" text="WIDTH" />
+            <TableColumn fx:id="heightCol" prefWidth="92.0" text="HEIGHT" />
+            <TableColumn fx:id="weightCol" prefWidth="102.0" text="WEIGHT" />
+            <TableColumn fx:id="receiverCol" prefWidth="97.0" text="RECEIVER" />
+            <TableColumn fx:id="cityCol" prefWidth="73.0" text="CITY" />
+            <TableColumn fx:id="more" prefWidth="82.0" text="MORE" />
+         </columns>
+      </TableView>
+      <Pane layoutY="63.0" prefHeight="7.0" prefWidth="900.0" style="-fx-background-color: black;" />
+      <Text fill="#976f6f" layoutX="251.0" layoutY="45.0" opacity="0.85" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Screen" textAlignment="CENTER" wrappingWidth="407.13671875">
+         <font>
+            <Font name="Bauhaus 93" size="33.0" />
+         </font>
+      </Text>
+      <HBox layoutX="624.0" layoutY="34.0" prefHeight="17.0" prefWidth="15.0" />
+      <FontAwesomeIconView glyphName="CLOSE" layoutX="714.0" layoutY="40.0" onMouseClicked="#close" size="20" text="" />
+      <HBox layoutX="51.0" layoutY="76.0" prefHeight="51.0" prefWidth="200.0">
+         <children>
+            <FontAwesomeIconView fill="#724747" glyphName="USER_PLUS" onMouseClicked="#getAddView" size="40">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </FontAwesomeIconView>
+            <FontAwesomeIconView fill="#5f6547" glyphName="REFRESH" onMouseClicked="#refreshTable" size="40" text="">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </FontAwesomeIconView>
+            <FontAwesomeIconView fill="#3e899e" glyphName="PRINT" onMouseClicked="#print" size="40">
+               <HBox.margin>
+                  <Insets right="50.0" />
+               </HBox.margin>
+            </FontAwesomeIconView>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
